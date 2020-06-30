@@ -48,7 +48,7 @@ exports.resolveEntry = (prefix, libName, files, isAsync) => {
   const content = `
 import './setPublicPath'
 import Vue from 'vue'
-import wrap from '@vue/web-component-wrapper'
+import wrap from 'vue-web-component-wrapper-native-slots'
 
 // runtime shared by every component chunk
 import 'css-loader/dist/runtime/api.js'

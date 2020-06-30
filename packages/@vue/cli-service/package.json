@@ -1,5 +1,5 @@
 {
-  "name": "@vue/cli-service",
+  "name": "vue-cli-service-wc-native-slots",
   "version": "4.4.6",
   "description": "local service for vue-cli projects",
   "main": "lib/Service.js",
@@ -32,7 +32,7 @@
     "@vue/cli-shared-utils": "^4.4.6",
     "@vue/component-compiler-utils": "^3.1.2",
     "@vue/preload-webpack-plugin": "^1.1.0",
-    "@vue/web-component-wrapper": "^1.2.0",
+    "vue-web-component-wrapper-native-slots": "^1.2.3",
     "acorn": "^7.2.0",
     "acorn-walk": "^7.1.1",
     "address": "^1.1.2",
